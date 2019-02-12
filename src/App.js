@@ -1,25 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import IntroComponent from './IntroComponent.js'
+import CelestialComponent from './CelestialComponent.js'
 
 class App extends Component {
   render() {
+    // your code in the return statement below!
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <IntroComponent />
+        <CelestialComponent />
       </div>
     );
   }
